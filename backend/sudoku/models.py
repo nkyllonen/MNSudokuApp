@@ -1,7 +1,7 @@
 from django.db import models
 
 def board_default():
-    return {'board': []}
+    return []
 
 class Sudoku(models.Model):
     title = models.CharField(max_length=120)
